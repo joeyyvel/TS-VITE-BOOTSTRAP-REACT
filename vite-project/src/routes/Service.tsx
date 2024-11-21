@@ -1,9 +1,14 @@
-import React from "react";
-
+import JapanServicePic from "../images/japanService.jpg";
+import Hero from "../components/Hero";
 const Service = () => {
   return (
     <div>
-      <h1>Service</h1>
+      <Hero
+        cName="hero-aboutPage"
+        heroImage={JapanServicePic}
+        title="SERVICES"
+        btnClass="hide"
+      />
     </div>
   );
 };

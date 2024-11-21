@@ -1,7 +1,15 @@
+import Hero from "../components/Hero";
+import AboutJapanPic from "../images/japanAbout.jpg";
+
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <Hero
+        cName="hero-aboutPage"
+        heroImage={AboutJapanPic}
+        title="About"
+        btnClass="hide"
+      />
     </div>
   );
 };

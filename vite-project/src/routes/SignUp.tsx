@@ -1,8 +1,16 @@
+import japanSignUpPic from "../images/japanSignUp.jpg";
+import Hero from "../components/Hero";
+
 const SignUp = () => {
   return (
-    <div>
-      <h1>Sign up</h1>
-    </div>
+    <>
+      <Hero
+        cName="hero-aboutPage"
+        heroImage={japanSignUpPic}
+        title="Contacts"
+        btnClass="hide"
+      />
+    </>
   );
 };
 
