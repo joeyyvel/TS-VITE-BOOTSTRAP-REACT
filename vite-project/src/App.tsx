@@ -1,10 +1,10 @@
 import "./App.css";
-import Landing from "./components/Landing";
+import Home from "./routes/Home";
 function App() {
   return (
     <>
       <h1>hello everybody!</h1>
-      <Landing />
+      <Home />
     </>
   );
 }

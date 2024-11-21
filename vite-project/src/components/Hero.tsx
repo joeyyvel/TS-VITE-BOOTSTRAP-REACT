@@ -1,11 +1,11 @@
+import "../components/HeroStyles.css";
 import PropTypes from "prop-types";
-import butterfly from "../images/butterfly-svgrepo-com.svg";
 
 const Hero = (props) => {
   return (
     <>
       <div className={props.cName}>
-        <img src={butterfly} alt="" />
+        <img src={props.heroImage} alt="Hero image" />
 
         <div className="hero-text">
           <h1>{props.title}</h1>
