@@ -1,10 +1,19 @@
 import "./App.css";
-import Landing from "./components/Landing";
+import Home from "./routes/Home";
+import Contact from "./routes/Contact";
+import About from "./routes/About";
+import Service from "./routes/Service";
+import SignUp from "./routes/SignUp";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <h1>hello everybody!</h1>
-      <Landing />
+      <Navbar />
+      <Home />
+      <Contact />
+      <About />
+      <Service />
+      <SignUp />
     </>
   );
 }
