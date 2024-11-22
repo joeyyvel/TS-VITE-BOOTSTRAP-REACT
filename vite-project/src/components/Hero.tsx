@@ -1,7 +1,16 @@
 import "../components/HeroStyles.css";
 import PropTypes from "prop-types";
 
-const Hero = (props) => {
+const Hero = (props: {
+  cName: string;
+  heroImage: string;
+  title: string;
+  text: string;
+  url: string;
+  button: string;
+  btnClass: string;
+  buttonText: string;
+}) => {
   return (
     <>
       <div className={props.cName}>
@@ -25,7 +34,7 @@ Hero.propTypes = {
   title: PropTypes.string,
   text: PropTypes.string,
   url: PropTypes.string,
-  btnClass: PropTypes.any,
+  btnClass: PropTypes.string,
   buttonText: PropTypes.string,
 };
 
