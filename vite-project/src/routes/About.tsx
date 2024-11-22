@@ -1,3 +1,5 @@
+import AboutUs from "../components/AboutUs";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutJapanPic from "../images/japanAbout.jpg";
@@ -17,6 +19,8 @@ const About = () => {
         button=""
         buttonText=""
       />
+      <AboutUs />
+      <Footer />
     </div>
   );
 };

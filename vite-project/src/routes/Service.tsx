@@ -1,6 +1,7 @@
 import JapanServicePic from "../images/japanService.jpg";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Trip from "../components/Trip";
 const Service = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Service = () => {
         button=""
         buttonText=""
       />
+      <Trip />
     </div>
   );
 };
