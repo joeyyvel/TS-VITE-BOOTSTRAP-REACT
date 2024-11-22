@@ -1,3 +1,4 @@
+import "../components/ContactFormStyle.css";
 const ContactForm = () => {
   return (
     <div className="form-container">
