@@ -11,6 +11,11 @@ const Contact = () => {
         heroImage={japanContactPic}
         title="Contacts"
         btnClass="hide"
+        //added as per typescript requirement
+        text=""
+        url=""
+        button=""
+        buttonText=""
       />
     </div>
   );

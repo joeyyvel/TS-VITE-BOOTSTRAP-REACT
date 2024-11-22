@@ -1,7 +1,7 @@
 import "../components/HeroStyles.css";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 
-const Hero = (props: {
+interface Props {
   cName: string;
   heroImage: string;
   title: string;
@@ -10,7 +10,9 @@ const Hero = (props: {
   button: string;
   btnClass: string;
   buttonText: string;
-}) => {
+}
+
+const Hero = (props: Props) => {
   return (
     <>
       <div className={props.cName}>
@@ -28,14 +30,15 @@ const Hero = (props: {
   );
 };
 
-Hero.propTypes = {
-  cName: PropTypes.string,
-  heroImage: PropTypes.any,
-  title: PropTypes.string,
-  text: PropTypes.string,
-  url: PropTypes.string,
-  btnClass: PropTypes.string,
-  buttonText: PropTypes.string,
-};
+// remove and replace by interface
+// Hero.propTypes = {
+//   cName: PropTypes.string,
+//   heroImage: PropTypes.any,
+//   title: PropTypes.string,
+//   text: PropTypes.string,
+//   url: PropTypes.string,
+//   btnClass: PropTypes.string,
+//   buttonText: PropTypes.string,
+// };
 
 export default Hero;

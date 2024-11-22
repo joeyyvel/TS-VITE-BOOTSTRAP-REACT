@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import "../components/DestinationStyles.css";
 
 const DestinationData = (props: {
@@ -27,14 +27,14 @@ const DestinationData = (props: {
   );
 };
 
-DestinationData.propTypes = {
-  className: PropTypes.string,
-  heading: PropTypes.string,
-  text: PropTypes.string,
-  heading2: PropTypes.string,
-  text2: PropTypes.string,
-  img1: PropTypes.string,
-  img2: PropTypes.string,
-};
+// DestinationData.propTypes = {
+//   className: PropTypes.string,
+//   heading: PropTypes.string,
+//   text: PropTypes.string,
+//   heading2: PropTypes.string,
+//   text2: PropTypes.string,
+//   img1: PropTypes.string,
+//   img2: PropTypes.string,
+// };
 
 export default DestinationData;
