@@ -10,6 +10,11 @@ const Service = () => {
         heroImage={JapanServicePic}
         title="SERVICES"
         btnClass="hide"
+        //added as per typescript requirements
+        text=""
+        url=""
+        button=""
+        buttonText=""
       />
     </div>
   );

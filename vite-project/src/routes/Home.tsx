@@ -12,6 +12,8 @@ const Home = () => {
         buttonText="Travel Plan"
         url="/"
         btnClass="show"
+        // added because of typescript requirements
+        button=""
       />
       <Destination />
     </div>

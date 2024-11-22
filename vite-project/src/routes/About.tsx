@@ -11,6 +11,11 @@ const About = () => {
         heroImage={AboutJapanPic}
         title="About"
         btnClass="hide"
+        // below is needed by typescript to be included in the project
+        text=""
+        url=""
+        button=""
+        buttonText=""
       />
     </div>
   );

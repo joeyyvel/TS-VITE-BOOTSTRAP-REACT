@@ -11,6 +11,11 @@ const SignUp = () => {
         heroImage={japanSignUpPic}
         title="Contacts"
         btnClass="hide"
+        //needed as per type script requirement
+        text=""
+        url=""
+        button=""
+        buttonText=""
       />
     </>
   );
