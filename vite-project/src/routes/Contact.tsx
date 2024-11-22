@@ -1,10 +1,11 @@
 import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
 import japanContactPic from "../images/japanContact.jpg";
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <Navbar />
       <Hero
         cName="hero-aboutPage"
         heroImage={japanContactPic}

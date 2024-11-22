@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #73e679;
+  --nav-color: rgb(7, 7, 31);
+}
+
+.NavbarItems {
+  background: rgb(172, 171, 169);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 5px 15px 0 rgba(26, 8, 8, 0.25);
+  width: 95%;
+  height: 80px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  opacity: 0.7;
+  z-index: 9999;
+}
+
+.navbar-logo {
+  cursor: pointer;
+}
+
+.navbar-logo:hover img {
+  transform: scale(1.3);
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 27px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: var(--nav-color);
+  font-size: 1.4rem;
+  font-weight: bolder;
+  /* padding: 0.7rem; */
+  padding: 1.7rem;
+  white-space: nowrap;
+}
+
+.nav-links:hover {
+  background-color: rgb(236, 245, 222);
+  color: var(--primary-color);
+  transition: all 0.2s ease-in-out;
+}
+
+/*--------sign up-------*/
+.nav-links-mobile {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 0.7rem;
+  color: #520cc2;
+  white-space: nowrap;
+}
+
+.nav-links-mobile i {
+  padding-right: 10px;
+}
+
+/* ---------sign up hover----------- */
+.nav-links-mobile:hover {
+  background-color: rgb(236, 245, 222);
+  color: var(--primary-color);
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  color: red;
+}
